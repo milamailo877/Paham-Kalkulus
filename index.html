@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Belajar Kalkulus</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ====== NAVBAR ====== -->
+  <header>
+    <div class="nav-container">
+      <div class="logo">Paham<span>Kalkulus</span></div>
+      <nav>
+        <ul>
+          <li><a href="#materi">Materi</a></li>
+          <li><a href="#tim">Tim Kami</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ====== HERO / INTRO ====== -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Belajar Kalkulus Disini Pasti Jadi PAHAM</h1>
+      <p>
+        Website ini kami buat khusus untuk materi-materi kalkulus di kuliah.
+        Cocok buat kamu yang lagi kuliah atau persiapan ujian.
+      </p>
+      <div class="hero-buttons">
+        <button class="btn-primary" onclick="document.getElementById('materi').scrollIntoView({behavior:'smooth'})">
+          Mulai Baca Materi
+        </button>
+        <button class="btn-ghost" onclick="document.getElementById('tim').scrollIntoView({behavior:'smooth'})">
+          Kenalan dengan Tim
+        </button>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <h3>Yang akan kamu pelajari di sini:</h3>
+      <ul>
+        <li>Pengantar Konsep Fungsi</li>
+        <li>Aturan Turunan Dasar</li>
+        <li>Konsep Integral Tak Tentu dan Tentu</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ====== MATERI KALKULUS ====== -->
+  <section class="section" id="materi">
+    <h2 class="section-title">Materi Kalkulus</h2>
+
+    <div class="materi-list">
+      <!-- ====== CONTOH KARTU MATERI 1 ====== -->
+      <article class="materi-card" data-materi="limit">
+        <span class="materi-badge">Fungsi</span>
+        <h3>Pengantar Konsep Fungsi</h3>
+        <div class="materi-info">Materi Dasar</div>
+        <p>1. Definisi Fungsi</p>
+        <p>Pada matematika, terutama kalkulus, fungsi adalah konsep dasar yang sangat penting. Secara sederhana, fungsi adalah aturan yang memasangkan setiap nilai x dari sebuah himpunan (domain) ke tepat satu nilai y di himpunan lain (kodomain). Nilai y ini sering ditulis sebagai f(x). </p>
+        <p>Contoh dalam kehidupan sehari-hari juga bisa dilihat: </p>
+        <ul>
+        <li>Biaya naik taksi bergantung pada jarak tempuh</li>
+        <li>Tagihan air bergantung pada jumlah pemakaian air</li>
+      </ul>
+      </article>
+
+      <!-- ====== CONTOH KARTU MATERI 2 ====== -->
+      <article class="materi-card" data-materi="turunan">
+        <span class="materi-badge">Turunan</span>
+        <h3>Aturan Turunan Dasar</h3>
+        <div class="materi-info">Materi Dasar</div>
+        <p>1.Konsep Dasar & Definisi</p>
+        <p>Sebelum masuk ke rumus cepat, penting untuk memahami apa itu turunan secara fundamental</p>
+        <p>Definisi Formal</p>
+        <p>Turunan dari sebuah fungsi f(x) terhadap x didefinisikan sebagai laju perubahan sesaat dari fungsi tersebut. Secara matematis, turunan didefinisikan menggunakan limit:</p>
+      </article>
+
+      <!-- ====== CONTOH KARTU MATERI 3 ====== -->
+      <article class="materi-card" data-materi="integral">
+        <span class="materi-badge">Integral</span>
+        <h3>Konsep Integral Tak Tentu dan Tentu</h3>
+        <div class="materi-info">Materi Dasar</div>
+        <p>Integral Tak Tentu</p>
+        <p>1.Pengertian Integral Tak Tentu Suatu Fungsi.</p>
+        <p>Integral tak tentu atau indefinite integral atau anti derivatif atau antiturunan adalah suatu invers atau kebalikan dari turunan yang mana apabila sebuah turunan dari suatu fungsi jika diintegralkan akan menghasilkan fungsi itu sendiri. Fungsi ini adalah suatu fungsi yang belum mempunyai nilai pasti atu masih berupa variabel. Cara pengintegrasian yang menghasilkan fungsi tak tentu tersebut dinamakan integral tak tentu.</p>
+      </article>
+    </div>
+
+        <!-- TOMBOL KEMBALI KE ATAS -->
+    <div class="back-top-wrapper">
+      <button class="btn-back-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        ↑ Kembali ke Home
+      </button>
+    </div>
+  </section>
+
+  <!-- ====== TIM KAMI ====== -->
+  <section class="section team-section" id="tim">
+    <h2 class="section-title">Tim Kami</h2>
+    <p class="team-intro">
+      Di bawah ini terdapat 4 mahasiswa hebat.
+    </p>
+
+    <div class="team-grid">
+      <!-- ANGGOTA 1 -->
+      <div class="team-card">
+        <div class="team-photo-wrapper">
+          <!-- Ganti src dengan URL foto kamu -->
+          <img src="mila.jpeg" class="img-team" />
+        </div>
+        <div class="team-name">KHANSA KAMILA</div>
+        <div class="team-role">@milamailo_</div>
+      </div>
+
+      <!-- ANGGOTA 2 -->
+      <div class="team-card">
+        <div class="team-photo-wrapper">
+          <!-- <img src="foto-kamu-2.jpg" alt="Nama Anggota 2" /> -->
+          FOTO
+        </div>
+        <div class="team-name">DIO ALHADI</div>
+        <div class="team-role">__</div>
+      </div>
+
+      <!-- ANGGOTA 3 -->
+      <div class="team-card">
+        <div class="team-photo-wrapper">
+          <!-- <img src="foto-kamu-3.jpg" alt="Nama Anggota 3" /> -->
+          FOTO
+        </div>
+        <div class="team-name">KANSHA FAIRUZ DWI V.P</div>
+        <div class="team-role">__</div>
+      </div>
+
+      <!-- ANGGOTA 4 -->
+      <div class="team-card">
+        <div class="team-photo-wrapper">
+          <!-- <img src="foto-kamu-4.jpg" alt="Nama Anggota 4" /> -->
+          FOTO
+        </div>
+        <div class="team-name">BAGUS CAHYO ADI</div>
+        <div class="team-role">__</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer>
+    <span>&copy; 2025 Website Kalkulus</span> • Dibuat dengan cinta.
+  </footer>
+
+    <!-- ====== MODAL MATERI (POPUP) ====== -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div id="modalBody">
+        <!-- Isi materi detail akan dimasukkan lewat JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== SCRIPT SEDERHANA ====== -->
+  <script>
+    // Data materi detail – di sini kamu bisa isi materi lengkap
+    const materiDetail = {
+      limit: {
+        title: "Fungsi",
+        level: "Materi Dasar",
+        content: `
+        <h3>1. Definisi Fungsi</h3>
+        <p>Pada matematika, terutama kalkulus, fungsi adalah konsep dasar yang sangat penting. Secara sederhana, fungsi adalah aturan yang memasangkan setiap nilai x dari sebuah himpunan (domain) ke tepat satu nilai y di himpunan lain (kodomain). Nilai y ini sering ditulis sebagai f(x). </p>
+        <p>Contoh dalam kehidupan sehari-hari juga bisa dilihat: </p>
+        <ul>
+        <li>Biaya naik taksi bergantung pada jarak tempuh</li>
+        <li>Tagihan air bergantung pada jumlah pemakaian air</li>
+      </ul>
+        <p>Di kedua kasus itu, satu nilai masukan (jarak atau volume air) menghasilkan satu nilai keluaran (biaya). Inilah alasan kenapa hal seperti ini disebut fungsi.</p>
+        <h3><br><br>2. Domain, Kodomain, dan Range</h3>
+        <ul>
+          <li>Domain (Df) adalah semua nilai x yang boleh dimasukkan ke fungsi.</li>
+          <li>Kodomain adalah himpunan tempat hasil fungsi berada.</li>
+          <li>Range (Rf) adalah semua nilai y yang benar-benar keluar dari fungsi tersebut.</li>
+        </ul>
+        <p>Contoh: </p>
+        <ul>
+          <li>Untuk fungsi f(x) = x² + 2x + 4,
+semua x real selalu menghasilkan nilai, jadi domain = seluruh bilangan real.
+Dengan mengubah ke bentuk kuadrat sempurna, nilai terkecilnya adalah 3, sehingga range = [3, ∞). </li>
+          <li>Fungsi f(x) = 1 + √x
+hanya terdefinisi jika x ≥ 0 sehingga domain = [0, ∞).
+Karena √x ≥ 0 ⇒ f(x) ≥ 1, maka range = [1, ∞). </li>
+        </ul>
+        <h3><br><br>3. Operasi Dalam Fungsi</h3>
+        <p>Jika ada dua fungsi f dan g, maka bisa dibuat operasi seperti: </p>
+        <ul>
+          <li>(f + g)(x) = f(x) + g(x)</li>
+          <li>(f −  g)(x) = f(x) − g(x)</li>
+          <li>(f × g)(x) = f(x) × g(x)</li>
+          <li>(f ÷ g)(x) = f(x) / g(x), dengan g(x) ≠ 0</li>
+          <li>k · f(x) = mengalikan fungsi dengan konstanta</li>
+        </ul>
+        <p>Domain untuk hasil operasi adalah irisan domain dari f dan g. </p>
+        <h3><br><br>4. Grafik Fungsi</h3>
+        <p>Beberapa jenis fungsi penting yang perlu dipahami:</p>
+        <h4>a. Fungsi Genap & Ganjil</h4>
+        <p>Fungsi genap: f(−x) = f(x) → grafik simetri terhadap sumbu y</p>
+        <p>Fungsi ganjil: f(−x) = −f(x) → grafik simetri terhadap titik (0,0)</p>
+        <h4>b. Fungsi Konstanta</h4>
+        <p>f(x) = k → grafik berupa garis horizontal.</p>
+        <h4>c. Fungsi Identitas</h4>
+        <p>f(x) = x → grafik berupa garis lurus miring melalui titik (0,0).</p>
+        <h4>d. Fungsi Linier</h4>
+        <p>f(x) = ax + b → grafik garis lurus.</p>
+        <p>a = gradien, b = titik potong sumbu y.</p>
+        <h4>e. Fungsi Kuadrat</h4>
+        <p>f(x) = ax² + bx + c → berbentuk parabola.</p>
+        <p>Bentuk simpelnya: </p>
+          <img src="fungsi.png" class="img-fungsi" />
+        <p>Dengan D = b² − 4ac (disebut diskriminan).</p>
+        <ul>
+          <li>Jika a > 0 → parabola terbuka ke atas</li>
+          <li>Jika a < 0 → terbuka ke bawah</li>
+        </ul>
+        <p>Range bergantung pada nilai puncaknya.</p>
+        <h3><br><br>5. Komposisi Fungsi</h3>
+        <p>Komposisi berarti menyusun dua fungsi menjadi satu fungsi baru.</p>
+        <ul>
+          <li>(f ∘ g)(x) = f(g(x))</li>
+          <li>(g ∘ f)(x) = g(f(x))</li>
+        </ul>
+        <p>Contoh: </p>
+        <p>Jika f(x) = 4x − 1 dan g(x) = x² + 2 </p>
+        <p>maka </p>
+        <ul> 
+          <li>(f ∘ g)(x) = f(g(x)) = 4(x² + 2) − 1 = 4x² + 7</li>
+          <li>(g ∘ f)(x) = g(4x − 1) = (4x − 1)² + 2 = 16x² − 8x + 3</li>
+        </ul>
+        <p>Komposisi bisa dilakukan berlapis (misal: f ∘ g ∘ h).</p>
+        <h3><br><br>6. Fungsi Trigonometri Dasar</h3>
+        <p>Fungsi trigonometri penting dalam banyak aplikasi kalkulus, seperti gelombang, getaran, dan gerak periodik.</p>
+        <h4>a. Sinus (sin x)</h4>
+        <ul>
+          <li>Periode: 2π</li>
+          <li>Amplitudo: 1</li>
+          <li>Nilai berkisar antara −1 hingga 1</li>
+        </ul>
+        <h4>b. Kosinus (cos x)</h4>
+        <ul>
+          <li>Periode: 2π</li>
+          <li>Amplitudo: 1</li>
+          <li>Nilai berkisar antara −1 hingga 1</li>
+        </ul>
+        <h4>c. Tangen (tan x)</h4>
+        <ul>
+          <li>Periode: π</li>
+          <li>Tidak memiliki amplitudo</li>
+          <li>Tidak terdefinisi pada</li>
+        </ul>
+        <img src="fungsi 2.png" class="img-fungsi" />
+        `
+      },
+      turunan: {
+        title: "Turunan",
+        level: "Materi Dasar",
+        content: `
+        <h3>1.Konsep Dasar & Definisi</h3>
+        <p>Sebelum masuk ke rumus cepat, penting untuk memahami apa itu turunan secara fundamental</p>
+        <p>Definisi Formal: Turunan dari sebuah fungsi f(x) terhadap x didefinisikan sebagai laju perubahan sesaat dari fungsi tersebut. </p>
+        <p>Secara matematis, turunan didefinisikan menggunakan limit:</p>
+        <img src="turunan.png" class="img-turunan" />
+        <p>Jika limit ini ada, maka fungsi tersebut dikatakan differentiable (dapat diturunkan) di titik tersebut.</p>
+        <p>Turunan dapat ditulis dalam beberapa bentuk notasi: </p>
+        <ul>
+          <li>Notasi Lagrange: f ( f aksen )′ (x) atau y ′</li>
+          <li>Notasi Leibniz: dx/dy atau dx/df</li>
+        </ul>
+        <h3><br><br>2. Interpretasi Geometris (Visualisasi)</h3>
+        <p>Secara visual, turunan f ′(a) adalah kemiringan (gradien/slope) dari garis singgung (tangent line) pada kurva y=f(x) di titik x=a.</p>
+        <ul>
+          <li>Garis Sekan: Garis yang memotong kurva di dua titik. Kemiringannya adalah rata-rata perubahan.</li>
+          <li>Garis Singgung: Ketika jarak antara dua titik mendekati nol (h→0), garis sekan berubah menjadi garis singgung. Kemiringan garis inilah yang disebut Turunan.</li>
+        </ul>
+        <p>Ilustrasi Grafik: </p>
+        <ul>
+          <li>Jika f ′(x)>0, grafik fungsi naik (monoton naik).</li>
+          <li>Jika f ′(x)<0, grafik fungsi turun (monoton turun).</li>
+          <li>Jika f ′(x)=0, terjadi titik stasioner (bisa berupa titik maksimum atau minimum lokal).</li>
+        </ul>
+        <h3><br><br>3. Aturan Dasar Turunan</h3>
+        <p>Berikut adalah aturan-aturan yang digunakan untuk menghitung turunan tanpa harus menggunakan definisi limit yang panjang.</p>
+        <h4>A.	Aturan Pangkat (Power Rule)</h4>
+        <p> Jika n adalah bilangan rasional, maka: </p>
+        <img src="turunan 2.png" class="img-turunan" />
+        <h4>B. Aturan Konstanta</h4>
+        <p> Turunan dari sebuah konstanta c adalah nol. </p>
+        <h4>C. Aturan Perkalian (Product Rule)</h4>
+        <p> Digunakan ketika dua fungsi dikalikan. Misal u=f(x) dan v=g(x): </p>
+        <img src="turunan 3.png" class="img-turunan" />
+        <h4>D. Aturan Pembagian (Quotient Rule) Digunakan untuk fungsi rasional (pecahan).</h4>
+        <img src="turunan 4.png" class="img-turunan" />
+        <h4>E. Aturan Rantai (Chain Rule)</h4>
+        <p>Digunakan untuk fungsi komposisi (fungsi di dalam fungsi). Ini adalah aturan yang paling sering digunakan dalam kalkulus lanjut. Jika y=f(u) dan u=g(x), maka: </p>
+        <img src="turunan 5.png" class="img-turunan" />
+        <p>Turunan atau dalam notasi fungsi: </p>
+        <img src="turunan 6.png" class="img-turunan" />
+        <h3><br><br>4. Fungsi Transenden</h3>
+        <p>Dalam kalkulus universitas, fungsi trigonometri, eksponen, dan logaritma sangat umum. </p>
+        <img src="turunan 7.png" class="img-turunan" />
+        <h3><br><br>5. Contoh Soal & Pembahasan</h3>
+        <p>Contoh 1: Polinomial Sederhana Tentukan turunan y = 4x^3 - 2x^2 + 5x - 7.</p>
+        <p>Menjawab dengan menggunakan aturan pangkat dan penjumlahan.</p>
+        <img src="turunan 8.png" class="img-turunan" />
+        <p>Contoh 2: Aturan Rantai (Chain Rule) Tentukan turunan dari y = (3x^2 + 1)^5</p>
+        <p>Jawab: Misalkan u = 3x^2 + 1 maka y = u^5 </p>
+        <img src="turunan 9.png" class="img-turunan" />
+        `
+      },
+      integral: {
+        title: "Integral",
+        level: "Materi Dasar",
+        content: `
+        <h3>1. Integral Tak Tentu</h3>
+        <h3>Pengertian Integral Tak Tentu Suatu Fungsi.</h3>
+        <p>Integral tak tentu atau indefinite integral atau anti derivatif atau antiturunan adalah suatu invers atau kebalikan dari turunan yang mana apabila sebuah turunan dari suatu fungsi jika diintegralkan akan menghasilkan fungsi itu sendiri. </p> 
+        <p>Fungsi ini adalah suatu fungsi yang belum mempunyai nilai pasti atu masih berupa variabel. Cara pengintegrasian yang menghasilkan fungsi tak tentu tersebut dinamakan integral tak tentu.</p>
+        <img src="integral.png" class="img-integral" />
+        <img src="integral 1.png" class="img-integral" />
+        <p>Berdasarkan tabel diatas dapat kita simpulkan bahwa dari F(x) yang berbeda diperoleh F′(x) yang sama, sehingga dapat kita katakan bahwa jika F′(x) = f(x) diketahui sama, maka fungsi asal F(x) yang diperoleh belum tentu sama. </p>
+        <p>Proses pencarian fungsi asal F(x) dari F′(x) yang diketahui disebut operasi invers pendiferensialan (anti turunan) dan lebih dikenal dengan nama operasi integral.</p>
+        <p>Jadi, secara umum perumusan integrasi dasar sebagai berikut: </p>
+        <img src="integral 2.png" class="img-integral" />
+        <p><br><br>Untuk mengerjakan integral fungsi trigonometri akan digunakan kesamaan-kesamaan sebagai berikut berikut ini: </p>
+        <img src="integral 3.png" class="img-integral" />
+        <h3><br><br>2. Integral Tentu</h3>
+        <h3>Pengertian Integral Tentu</h3>
+        <p>Landasan dasar mengenai integral tentu pertama kali dikenalkan oleh seorang ilmuwan terkenal yaitu newton dan leibninz yang kemudian diperkenalkan lebih lanjut secara modern oleh Riemann. Pengertian integral ini memiliki batas atas dan batas bawah. Aplikasi integral ini dapat digunakan untuk menghitung luas daerah maupun volume benda putar.</p>
+        <img src="integral 4.png" class="img-integral" />
+        <h3><br><br>Teorema Dasar Kalkulus</h3>
+        <p>Teorema Dasar Kalkulus memberikan kemudahan untuk menghitung Integral Tentu, berikut teorema tersebut : </p>
+        <p>Misal f kontinu pada [a,b] dan F sebarang anti turunan f, maka: </p>
+        <img src="integral 5.png" class="img-integral" />
+        <img src="integral 6.png" class="img-integral" />
+        <h3><br><br>Sifat-Sifat Integral Tentu</h3>
+        <h3>a. Sifat Penambahan Selang</h3>
+        <p>Teorema : </p>
+        <p>Jika f terintegralkan pada suatu selang yang mengandung tiga titik a, b dan c, maka : </p>
+        <img src="integral 7.png" class="img-integral" />
+        <p>Contoh : </p>
+        <img src="integral 8.png" class="img-integral" />
+        <h3><br><br>b. Sifat Simetri</h3>
+        <p>Teorema : </p>
+        <img src="integral 9.png" class="img-integral" />
+        <p>Contoh : </p>
+        <img src="integral 10.png" class="img-integral" />
+        `
+      }
+    };
+
+    const cards = document.querySelectorAll(".materi-card");
+    const modalOverlay = document.getElementById("modalOverlay");
+    const modalClose = document.getElementById("modalClose");
+    const modalBody = document.getElementById("modalBody");
+
+    cards.forEach(card => {
+      card.style.cursor = "pointer"; // biar kelihatan bisa diklik
+      card.addEventListener("click", () => {
+        const key = card.getAttribute("data-materi");
+        const materi = materiDetail[key];
+        if (!materi) return;
+
+        modalBody.innerHTML = `
+          <h2 class="modal-title">${materi.title}</h2>
+          <div class="modal-level">${materi.level}</div>
+          <div class="modal-text">${materi.content}</div>
+          <button class="btn-back-list" id="btnBackList">← Kembali ke daftar materi</button>
+        `;
+
+        modalOverlay.classList.add("show");
+
+        // tombol kembali di dalam modal
+        const btnBackList = document.getElementById("btnBackList");
+        btnBackList.addEventListener("click", () => {
+          modalOverlay.classList.remove("show");
+        });
+      });
+    });
+
+    // tombol X
+    modalClose.addEventListener("click", () => {
+      modalOverlay.classList.remove("show");
+    });
+
+    // klik area gelap di luar modal untuk menutup
+    modalOverlay.addEventListener("click", (e) => {
+      if (e.target === modalOverlay) {
+        modalOverlay.classList.remove("show");
+      }
+    });
+  </script>
+</body>
+</html>
+
+</body>
+</html>
